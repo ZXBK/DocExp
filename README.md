@@ -1,2 +1,2 @@
 # DocExp
-execution of DE gene calculation
+execution of DEgene calculation
