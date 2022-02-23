@@ -1,2 +1,2 @@
 # DocExp
-execution of difference expressed gene calculation
+execution of DE gene calculation
