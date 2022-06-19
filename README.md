@@ -12,6 +12,8 @@ docker pull lsbnb/docexpress
 
 docker run -itd --name docexp -p 8999:80 -p 8021:21 -p 8022:22 -v Path:/in -w /in lsbnb/docexpress bash
 
+docker exec -it docexp bash
+
 chmod -R 777 /in/
 
 nohup sh doc.sh -p 20 -d /path/to/sra/ -g genome.fna -f genome.gff &
